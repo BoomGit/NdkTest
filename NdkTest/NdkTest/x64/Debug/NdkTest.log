@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/11/6 22:01:26。
+     1>项目“E:\Projects\vs\NdkTest\NdkTest\NdkTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt NdkTest.c
+         NdkTest.c
+     1>NdkTest.c(20): warning C4029: 声明的形参表不同于定义
+     1>NdkTest.c(72): warning C4313: “printf”: 格式字符串中的“%x”与“jstring *”类型的参数 1 冲突
+     1>NdkTest.c(75): warning C4090: “初始化”: 不同的“const”限定符
+     1>NdkTest.c(84): warning C4313: “printf”: 格式字符串中的“%x”与“jstring *”类型的参数 1 冲突
+     1>NdkTest.c(129): warning C4090: “初始化”: 不同的“const”限定符
+     1>NdkTest.c(149): warning C4133: “初始化”: 从“jclass”到“jmethodID”的类型不兼容
+     1>NdkTest.c(193): warning C4267: “函数”: 从“size_t”转换到“jsize”，可能丢失数据
+     1>NdkTest.c(197): warning C4267: “函数”: 从“size_t”转换到“jsize”，可能丢失数据
+     1>NdkTest.c(220): warning C4013: “qsort”未定义；假设外部返回 int
+     1>NdkTest.c(315): warning C4090: “初始化”: 不同的“const”限定符
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\vs\NdkTest\x64\Debug\NdkTest.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\vs\NdkTest\x64\Debug\NdkTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\vs\NdkTest\x64\Debug\NdkTest.lib" /MACHINE:X64 /DLL x64\Debug\NdkTest.obj
+            正在创建库 E:\Projects\vs\NdkTest\x64\Debug\NdkTest.lib 和对象 E:\Projects\vs\NdkTest\x64\Debug\NdkTest.exp
+         NdkTest.vcxproj -> E:\Projects\vs\NdkTest\x64\Debug\NdkTest.dll
+     1>已完成生成项目“E:\Projects\vs\NdkTest\NdkTest\NdkTest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69
